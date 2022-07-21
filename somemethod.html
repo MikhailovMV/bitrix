@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	console.log("start");
+	var theItem = null;
+	var replaceItem = function () {
+		var priorItem = theItem;
+		var writeToLog = function () {
+			if (priorItem) {
+				console.log("hi");
+			}
+	};
+	theItem = {
+		longStr: new Array(1000000).join('*'),
+		someMethod: function () {
+			console.log(someMessage);
+		}
+	};
+	};
+	setInterval(replaceItem, 1000);
+	console.log("end");
+</script>
+ 
+</head>
+<body>
+	OK
+</body>
+</html>
